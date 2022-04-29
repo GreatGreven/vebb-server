@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Veb Blog
+        </title>
+    </head>
+    <body>
+        @for article in articles
+            <div>
+                <strong> @article.title </strong>
+                <p>
+                    @article.text
+                <p>
+            </div>
+        @end
+    </body>
+</html>
